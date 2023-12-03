@@ -83,7 +83,9 @@
 <script type="text/javascript" src="/assets/bootstrap/js/bootstrap-notify/notify.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
-        const ws = new WebSocket("ws://nav.cqy.im/socket/system/message");
+        const currentDomain = window.location.hostname;
+        const protocol = window.location.protocol === 'https:' ? 'wss' : 'ws';
+        const ws = new WebSocket(`${protocol}://${currentDomain}/socket/system/message`);
 
         //连接打开时触发
         ws.onopen = function (evt) {
