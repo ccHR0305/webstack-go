@@ -33,7 +33,7 @@ services:
 
 
   webstack-go-mysql:
-    image: mysql/mysql-server:5.7
+    image: arm64v8/mysql:oracle
     container_name: webstack-go-mysql
     environment:
       MYSQL_DATABASE: webstack-go
@@ -52,7 +52,7 @@ services:
 
 
   webstack-go-redis:
-    image: redis:6.2.4
+    image: arm64v8/redis:alpine
     container_name: webstack-go-redis
     command: redis-server --requirepass 123456
     ports:
