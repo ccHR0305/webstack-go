@@ -85,7 +85,7 @@
     $(document).ready(function () {
         const currentDomain = window.location.hostname;
         const protocol = window.location.protocol === 'https:' ? 'wss' : 'ws';
-        const ws = new WebSocket(`${protocol}://${currentDomain}/socket/system/message`);
+        const ws = new WebSocket(`${protocol}:/${currentDomain}/socket/system/message`);
 
         //连接打开时触发
         ws.onopen = function (evt) {
