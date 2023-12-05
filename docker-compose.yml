@@ -36,7 +36,7 @@ services:
     image: arm64v8/mysql:oracle
     container_name: webstack-go-mysql
     environment:
-      MYSQL_DATABASE: webstack-go
+      MYSQL_DATABASE: webstack
       TZ: Asia/Shanghai
       # 允许来自其他主机的根连接
       # https://dev.mysql.com/doc/refman/5.7/en/docker-mysql-more-topics.html#docker_var_mysql-root-host
