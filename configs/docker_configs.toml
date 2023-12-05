@@ -22,13 +22,13 @@
 
   [mysql.read]
     addr = "webstack-go-mysql:3306"
-    name = "webstack-go"
+    name = "webstack"
     pass = "123456"
     user = "root"
 
   [mysql.write]
     addr = "webstack-go-mysql:3306"
-    name = "webstack-go"
+    name = "webstack"
     pass = "123456"
     user = "root"
 
