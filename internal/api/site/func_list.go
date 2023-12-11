@@ -11,7 +11,7 @@ import (
 
 type listRequest struct {
 	Page              int64  `form:"page,default=1"`        // 第几页
-	PageSize          int64  `form:"page_size,default=10" ` // 每页显示条数
+	PageSize          int64  `form:"page_size,default=20" ` // 每页显示条数
 	BusinessKey       string `form:"business_key"`          // 调用方key
 	BusinessSecret    string `form:"business_secret"`       // 调用方secret
 	BusinessDeveloper string `form:"business_developer"`    // 调用方对接人
