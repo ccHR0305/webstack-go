@@ -1,10 +1,10 @@
 package helper
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql"
-	"github.com/ch3nnn/webstack-go/internal/repository/redis"
-	"github.com/ch3nnn/webstack-go/internal/services/authorized"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql"
+	"github.com/ccHR0305/webstack-go/internal/repository/redis"
+	"github.com/ccHR0305/webstack-go/internal/services/authorized"
 
 	"go.uber.org/zap"
 )
