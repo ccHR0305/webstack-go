@@ -3,8 +3,8 @@ package generator_handler
 import (
 	"fmt"
 
-	"github.com/ch3nnn/webstack-go/configs"
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/configs"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
 
 	"go.uber.org/zap"
 )
