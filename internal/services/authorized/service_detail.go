@@ -1,9 +1,9 @@
 package authorized
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/model"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/query"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/model"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/query"
 )
 
 func (s *service) Detail(ctx core.Context, id int64) (authorizedInfo *model.Authorized, err error) {
