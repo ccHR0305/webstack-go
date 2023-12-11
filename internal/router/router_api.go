@@ -1,16 +1,16 @@
 package router
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/api/admin"
-	"github.com/ch3nnn/webstack-go/internal/api/authorized"
-	"github.com/ch3nnn/webstack-go/internal/api/category"
-	"github.com/ch3nnn/webstack-go/internal/api/config"
-	"github.com/ch3nnn/webstack-go/internal/api/cron"
-	"github.com/ch3nnn/webstack-go/internal/api/helper"
-	"github.com/ch3nnn/webstack-go/internal/api/menu"
-	"github.com/ch3nnn/webstack-go/internal/api/site"
-	"github.com/ch3nnn/webstack-go/internal/api/tool"
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/api/admin"
+	"github.com/ccHR0305/webstack-go/internal/api/authorized"
+	"github.com/ccHR0305/webstack-go/internal/api/category"
+	"github.com/ccHR0305/webstack-go/internal/api/config"
+	"github.com/ccHR0305/webstack-go/internal/api/cron"
+	"github.com/ccHR0305/webstack-go/internal/api/helper"
+	"github.com/ccHR0305/webstack-go/internal/api/menu"
+	"github.com/ccHR0305/webstack-go/internal/api/site"
+	"github.com/ccHR0305/webstack-go/internal/api/tool"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
 )
 
 func setApiRouter(r *resource) {
