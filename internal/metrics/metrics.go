@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/proposal"
+	"github.com/ccHR0305/webstack-go/internal/proposal"
 
 	"go.uber.org/zap"
 )
