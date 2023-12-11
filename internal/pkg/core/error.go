@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/pkg/errors"
+	"github.com/ccHR0305/webstack-go/internal/pkg/errors"
 )
 
 var _ BusinessError = (*businessError)(nil)
