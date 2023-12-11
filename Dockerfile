@@ -6,10 +6,10 @@ ENV GO111MODULE=on
 ENV GOPROXY=https://goproxy.io,direct
 
 # COPY 源路径 目标路径
-COPY . /go/src/github.com/ch3nnn/webstack-go
+COPY . /go/src/github.com/ccHR0305/webstack-go
 
 # RUN 执行 go build .
-RUN cd /go/src/github.com/ch3nnn/webstack-go && go build  .
+RUN cd /go/src/github.com/ccHR0305/webstack-go && go build  .
 
 # FROM 基于 alpine:latest
 FROM alpine:latest
@@ -23,7 +23,7 @@ RUN apk --no-cache add tzdata  && \
     echo "Asia/Shanghai" > /etc/timezone
 
 # COPY 源路径 目标路径 从镜像中 COPY
-COPY --from=builder /go/src/github.com/ch3nnn/webstack-go/webstack-go /opt/
+COPY --from=builder /go/src/github.com/ccHR0305/webstack-go/webstack-go /opt/
 
 # EXPOSE 设置端口映射
 EXPOSE 9999/tcp
