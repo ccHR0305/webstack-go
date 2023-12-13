@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/ch3nnn/webstack-go/internal/graph/generated"
-	"github.com/ch3nnn/webstack-go/internal/graph/resolvers"
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql"
-	"github.com/ch3nnn/webstack-go/internal/repository/redis"
+	"github.com/ccHR0305/webstack-go/internal/graph/generated"
+	"github.com/ccHR0305/webstack-go/internal/graph/resolvers"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql"
+	"github.com/ccHR0305/webstack-go/internal/repository/redis"
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/handler"
