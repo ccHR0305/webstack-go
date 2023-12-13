@@ -5,8 +5,8 @@ package resolvers
 import (
 	"context"
 
-	"github.com/ch3nnn/webstack-go/internal/graph/generated"
-	"github.com/ch3nnn/webstack-go/internal/graph/model"
+	"github.com/ccHR0305/webstack-go/internal/graph/generated"
+	"github.com/ccHR0305/webstack-go/internal/graph/model"
 )
 
 type Resolver struct{}
