@@ -1,8 +1,8 @@
 package gormgen
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/model"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/model"
 	"gorm.io/gen"
 	"gorm.io/gen/field"
 	"gorm.io/gorm"
