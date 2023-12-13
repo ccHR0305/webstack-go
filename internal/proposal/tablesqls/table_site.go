@@ -21,7 +21,7 @@ func CreateSiteTableSql() (sql string) {
 func CreateSiteTableDateSql() (sql string) {
 
 	sql = "INSERT INTO `site` (category_id,title,thumb,description,url,created_at,updated_at,is_used) VALUES"
-	sql += "(1,'Dribbble','/assets/bootstrap/static/index/images/favicon.png','全球UI设计师作品分享平台。','https://dribbble.com/','2019-01-21 15:23:29','2019-03-12 02:13:08',1),"
+	sql += "(1,'Dribbble','/assets/bootstrap/static/index/images/favicon.png','全球UI设计师作品分享平台。','https://dribbble.com/','2019-01-21 15:23:29','2019-03-12 02:13:08',1);"
 
 	return
 }
