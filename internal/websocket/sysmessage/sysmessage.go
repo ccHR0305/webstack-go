@@ -1,11 +1,11 @@
 package sysmessage
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/pkg/errors"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql"
-	"github.com/ch3nnn/webstack-go/internal/repository/redis"
-	"github.com/ch3nnn/webstack-go/internal/repository/socket"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/pkg/errors"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql"
+	"github.com/ccHR0305/webstack-go/internal/repository/redis"
+	"github.com/ccHR0305/webstack-go/internal/repository/socket"
 
 	"go.uber.org/zap"
 )
