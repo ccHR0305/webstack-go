@@ -1,8 +1,8 @@
 package menu
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/query"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/query"
 )
 
 func (s *service) Delete(ctx core.Context, id int64) (err error) {
