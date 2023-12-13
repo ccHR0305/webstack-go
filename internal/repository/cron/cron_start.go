@@ -2,7 +2,7 @@ package cron
 
 import (
 	"fmt"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/query"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/query"
 	"math"
 
 	"go.uber.org/zap"
