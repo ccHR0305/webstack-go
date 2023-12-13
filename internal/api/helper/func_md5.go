@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"net/http"
 
-	"github.com/ch3nnn/webstack-go/internal/code"
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/code"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
 )
 
 type md5Request struct {
