@@ -1,9 +1,9 @@
 package index
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/model"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/query"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/model"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/query"
 )
 
 func (s *service) Index(ctx core.Context) (sites []*model.Site, err error) {
