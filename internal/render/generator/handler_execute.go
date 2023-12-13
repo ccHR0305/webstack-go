@@ -1,8 +1,8 @@
 package generator_handler
 
 import (
-	"github.com/ch3nnn/webstack-go/cmd/handlergen"
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/cmd/handlergen"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
 )
 
 type handlerExecuteRequest struct {
