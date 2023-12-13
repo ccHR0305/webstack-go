@@ -3,7 +3,7 @@ package code
 import (
 	_ "embed"
 
-	"github.com/ch3nnn/webstack-go/configs"
+	"github.com/ccHR0305/webstack-go/configs"
 )
 
 //go:embed code.go
