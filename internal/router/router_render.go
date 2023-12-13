@@ -1,18 +1,18 @@
 package router
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/api/index"
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/render/admin"
-	"github.com/ch3nnn/webstack-go/internal/render/authorized"
-	"github.com/ch3nnn/webstack-go/internal/render/config"
-	"github.com/ch3nnn/webstack-go/internal/render/cron"
-	"github.com/ch3nnn/webstack-go/internal/render/dashboard"
-	"github.com/ch3nnn/webstack-go/internal/render/generator"
-	adminIdex "github.com/ch3nnn/webstack-go/internal/render/index"
-	"github.com/ch3nnn/webstack-go/internal/render/install"
-	"github.com/ch3nnn/webstack-go/internal/render/tool"
-	"github.com/ch3nnn/webstack-go/internal/render/upgrade"
+	"github.com/ccHR0305/webstack-go/internal/api/index"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/render/admin"
+	"github.com/ccHR0305/webstack-go/internal/render/authorized"
+	"github.com/ccHR0305/webstack-go/internal/render/config"
+	"github.com/ccHR0305/webstack-go/internal/render/cron"
+	"github.com/ccHR0305/webstack-go/internal/render/dashboard"
+	"github.com/ccHR0305/webstack-go/internal/render/generator"
+	adminIdex "github.com/ccHR0305/webstack-go/internal/render/index"
+	"github.com/ccHR0305/webstack-go/internal/render/install"
+	"github.com/ccHR0305/webstack-go/internal/render/tool"
+	"github.com/ccHR0305/webstack-go/internal/render/upgrade"
 )
 
 func setRenderRouter(r *resource) {
