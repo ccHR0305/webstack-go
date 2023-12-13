@@ -3,11 +3,11 @@ package tool
 import (
 	"encoding/json"
 
-	"github.com/ch3nnn/webstack-go/configs"
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/pkg/file"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql"
-	"github.com/ch3nnn/webstack-go/internal/repository/redis"
+	"github.com/ccHR0305/webstack-go/configs"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/pkg/file"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql"
+	"github.com/ccHR0305/webstack-go/internal/repository/redis"
 
 	"go.uber.org/zap"
 )
