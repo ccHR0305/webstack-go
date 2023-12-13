@@ -1,9 +1,9 @@
 package cron
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/constant"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/query"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/constant"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/query"
 )
 
 func (s *service) UpdateUsed(ctx core.Context, id, used int64) (err error) {
