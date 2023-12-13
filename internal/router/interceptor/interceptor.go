@@ -1,12 +1,12 @@
 package interceptor
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/proposal"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql"
-	"github.com/ch3nnn/webstack-go/internal/repository/redis"
-	"github.com/ch3nnn/webstack-go/internal/services/admin"
-	"github.com/ch3nnn/webstack-go/internal/services/authorized"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/proposal"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql"
+	"github.com/ccHR0305/webstack-go/internal/repository/redis"
+	"github.com/ccHR0305/webstack-go/internal/services/admin"
+	"github.com/ccHR0305/webstack-go/internal/services/authorized"
 
 	"go.uber.org/zap"
 )
