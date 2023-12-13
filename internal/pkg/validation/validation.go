@@ -3,7 +3,7 @@ package validation
 import (
 	"fmt"
 
-	"github.com/ch3nnn/webstack-go/configs"
+	"github.com/ccHR0305/webstack-go/configs"
 
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/locales/en"
