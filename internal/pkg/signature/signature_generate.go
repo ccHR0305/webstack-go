@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/ch3nnn/webstack-go/internal/pkg/errors"
-	"github.com/ch3nnn/webstack-go/internal/pkg/timeutil"
+	"github.com/ccHR0305/webstack-go/internal/pkg/errors"
+	"github.com/ccHR0305/webstack-go/internal/pkg/timeutil"
 )
 
 // Generate
