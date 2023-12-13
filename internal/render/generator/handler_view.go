@@ -1,7 +1,7 @@
 package generator_handler
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
 )
 
 func (h *handler) HandlerView() core.HandlerFunc {
