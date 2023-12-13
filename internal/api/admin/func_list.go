@@ -1,11 +1,11 @@
 package admin
 
 import (
-	"github.com/ch3nnn/webstack-go/configs"
-	"github.com/ch3nnn/webstack-go/internal/code"
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/pkg/password"
-	"github.com/ch3nnn/webstack-go/internal/services/admin"
+	"github.com/ccHR0305/webstack-go/configs"
+	"github.com/ccHR0305/webstack-go/internal/code"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/pkg/password"
+	"github.com/ccHR0305/webstack-go/internal/services/admin"
 	"github.com/spf13/cast"
 	"net/http"
 )
