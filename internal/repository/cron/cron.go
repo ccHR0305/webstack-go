@@ -1,12 +1,12 @@
 package cron
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/model"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/model"
 	"sync"
 
-	"github.com/ch3nnn/webstack-go/internal/pkg/errors"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql"
-	"github.com/ch3nnn/webstack-go/internal/repository/redis"
+	"github.com/ccHR0305/webstack-go/internal/pkg/errors"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql"
+	"github.com/ccHR0305/webstack-go/internal/repository/redis"
 
 	"github.com/jakecoffman/cron"
 	"go.uber.org/zap"
