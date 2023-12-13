@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/ch3nnn/webstack-go/internal/graph/model"
+	"github.com/ccHR0305/webstack-go/internal/graph/model"
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
