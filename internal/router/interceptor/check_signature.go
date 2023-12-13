@@ -1,17 +1,17 @@
 package interceptor
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/constant"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/constant"
 	"net/http"
 	"strings"
 
-	"github.com/ch3nnn/webstack-go/configs"
-	"github.com/ch3nnn/webstack-go/internal/code"
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/pkg/env"
-	"github.com/ch3nnn/webstack-go/internal/pkg/errors"
-	"github.com/ch3nnn/webstack-go/internal/pkg/signature"
-	"github.com/ch3nnn/webstack-go/internal/pkg/urltable"
+	"github.com/ccHR0305/webstack-go/configs"
+	"github.com/ccHR0305/webstack-go/internal/code"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/pkg/env"
+	"github.com/ccHR0305/webstack-go/internal/pkg/errors"
+	"github.com/ccHR0305/webstack-go/internal/pkg/signature"
+	"github.com/ccHR0305/webstack-go/internal/pkg/urltable"
 )
 
 var whiteListPath = map[string]bool{
