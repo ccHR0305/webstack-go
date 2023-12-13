@@ -16,7 +16,7 @@ import (
 
 	"gorm.io/plugin/dbresolver"
 
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/model"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/model"
 )
 
 func newCronTask(db *gorm.DB, opts ...gen.DOOption) cronTask {
