@@ -3,8 +3,8 @@ package resolvers
 import (
 	"context"
 
-	"github.com/ch3nnn/webstack-go/internal/graph/model"
-	"github.com/ch3nnn/webstack-go/internal/pkg/errors"
+	"github.com/ccHR0305/webstack-go/internal/graph/model"
+	"github.com/ccHR0305/webstack-go/internal/pkg/errors"
 )
 
 func (r *queryResolver) BySex(ctx context.Context, sex string) ([]*model.User, error) {
