@@ -2,11 +2,11 @@ package mysql
 
 import (
 	"fmt"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/query"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/query"
 	"time"
 
-	"github.com/ch3nnn/webstack-go/configs"
-	"github.com/ch3nnn/webstack-go/internal/pkg/errors"
+	"github.com/ccHR0305/webstack-go/configs"
+	"github.com/ccHR0305/webstack-go/internal/pkg/errors"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
