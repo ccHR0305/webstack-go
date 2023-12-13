@@ -1,8 +1,8 @@
 package tool
 
 import (
-	"github.com/ch3nnn/webstack-go/configs"
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/configs"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
 )
 
 type dbsResponse struct {
