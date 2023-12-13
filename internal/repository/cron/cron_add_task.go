@@ -1,7 +1,7 @@
 package cron
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/model"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/model"
 	"strings"
 
 	"github.com/spf13/cast"
