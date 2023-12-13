@@ -1,8 +1,8 @@
 package admin
 
 import (
-	"github.com/ch3nnn/webstack-go/internal/pkg/core"
-	"github.com/ch3nnn/webstack-go/internal/repository/mysql/query"
+	"github.com/ccHR0305/webstack-go/internal/pkg/core"
+	"github.com/ccHR0305/webstack-go/internal/repository/mysql/query"
 )
 
 type ModifyData struct {
